@@ -15,7 +15,6 @@ export const MealsView: React.FC<MealsViewProps> = () => {
   const {
     mealPlans,
     toggleMealCooked,
-    dinnerPoll,
     sendIngredientsToGroceries,
   } = useFamily();
 
