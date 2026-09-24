@@ -1,6 +1,6 @@
 import React from 'react';
 import { useFamily } from '../../context/FamilyContext';
-import { ShieldAlert, Phone, FileText, MapPin } from 'lucide-react';
+import { Phone, FileText, MapPin } from 'lucide-react';
 
 export const SafetyView: React.FC = () => {
   const { emergencyContacts, safetyPlans } = useFamily();

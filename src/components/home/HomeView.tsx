@@ -1,6 +1,6 @@
 import React from 'react';
 import { useFamily } from '../../context/FamilyContext';
-import { Wrench, Car, Home as HomeIcon, CheckCircle2, Circle, AlertTriangle, Lightbulb } from 'lucide-react';
+import { Car, Home as HomeIcon, CheckCircle2, Circle, AlertTriangle, Lightbulb } from 'lucide-react';
 
 export const HomeView: React.FC = () => {
   const { maintenanceTasks, toggleMaintenanceTask } = useFamily();

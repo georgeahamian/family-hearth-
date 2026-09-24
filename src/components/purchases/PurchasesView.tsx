@@ -5,7 +5,6 @@ import {
   Check,
   DollarSign,
   Plus,
-  ShoppingBag,
 } from 'lucide-react';
 
 interface PurchasesViewProps {

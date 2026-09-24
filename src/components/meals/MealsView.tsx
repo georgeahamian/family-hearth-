@@ -16,9 +16,7 @@ export const MealsView: React.FC<MealsViewProps> = () => {
     mealPlans,
     toggleMealCooked,
     dinnerPoll,
-    voteForDinner,
     sendIngredientsToGroceries,
-    currentMember,
   } = useFamily();
 
   const [selectedDayFilter, setSelectedDayFilter] = useState<string>('All');
@@ -30,7 +28,7 @@ export const MealsView: React.FC<MealsViewProps> = () => {
     return m.day.toLowerCase() === selectedDayFilter.toLowerCase();
   });
 
-  const totalPollVotes = dinnerPoll.reduce((sum, item) => sum + item.votes, 0);
+
 
   return (
     <div className="space-y-5 sm:space-y-6 animate-fade-in w-full">
